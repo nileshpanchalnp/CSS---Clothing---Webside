@@ -1,0 +1,86 @@
+@media only screen and (max-width:1024px){
+    .navbar{
+        width:50%;
+    }
+    .logo{
+       font-size: 20px;
+    }
+    .ull{
+        padding-left: 650px;
+    }
+    .subnav{
+        width:100%;
+        font-size: 8px;
+    }
+    .img .photo1{
+        height: 300px;
+        width: 200px;
+     }
+     .img .photo2{
+        height: 300px;
+        width: 200px;
+     }
+     .img .photo3{
+        height: 300px;
+        width: 200px;
+     }
+     .img .photo4{
+        height: 300px;
+        width: 200px;
+     }
+     .img .photo5{
+        height: 300px;
+        width: 200px;
+     }
+     .img .photo6{
+        height: 300px;
+        width: 200px;
+     }
+     .rupee .rscom{
+        font-size: 20px;
+    }
+     .imgtxt .phototxt{
+        font-size: 15px;
+    }
+    .next{
+        margin: 20px;
+        font-size: 30px;
+        gap: 30px;
+    }
+    .nextbox{
+        height: 40px;
+        width: 40px;
+    }
+
+
+    /* .card img{
+        height: 30px;
+    }
+    .ustxt{
+        font-size: 20px;
+    }
+    .foottxt{
+        font-size: 15px;
+    } */
+     
+    .card img{
+        height: 30px;
+    }
+    .footer{
+        height: 250px;
+    }
+    .ustxt{
+        font-size: 20px;
+    }
+    .foottxt{
+        font-size: 5px;
+    }
+    .copy{
+        height: 45px;
+        font-size: 18px;
+        align-items: center;
+    }
+    .ind{
+        text-indent: 650px;
+    }
+}

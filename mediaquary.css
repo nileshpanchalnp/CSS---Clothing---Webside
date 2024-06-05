@@ -1,0 +1,354 @@
+ @media only screen and (max-width:1024px){
+     .navbar{
+         width:100%;
+     }
+     .logo{
+        font-size: 20px;
+     }
+     .ull{
+         padding-left: 650px;
+     }
+     .subnav{
+         width:100%;
+         font-size: 8px;
+     }
+     .hero{
+         height: 400px;
+     }
+     .comsam img{
+         height: 300px;
+         width: 200px;
+     }
+     .mideashirts{
+        margin-left: 30px;
+     }
+     .shirtshop{
+        height: 40px;
+        width: 200px;
+        font-size: 25px;
+        margin-bottom: 170px;
+     }
+     .pants{
+         margin-top: -130px;
+     }
+     .pantshop{
+        height: 40px;
+        width: 120px;
+        font-size: 25px;
+        margin-bottom: 190px;
+     }
+     .brazer{
+        margin-top: -150px;
+     }
+     .brazershop{
+        height: 40px;
+        width: 120px;
+        font-size: 25px;
+        margin-bottom: 190px;
+     }
+     .polo{
+        margin-top: -130px;
+    }
+    .poloshop{
+        height: 40px;
+        width: 120px;
+        font-size: 25px;
+        margin-bottom: 90px;
+    }
+    .news{
+        margin-top: -25px;
+    }
+    .event1{
+        height: 200px;
+        width: 300px;
+    }
+    .event2{
+        height: 200px;
+        width: 300px;
+    }
+    .event3{
+        height: 200px;
+        width: 300px;
+    }
+    .eventtx1{
+        height: 150px;
+        width: 300px;
+    }
+    .eventtx2{
+        height: 150px;
+        width: 300px;
+    }  
+    .eventtx3{
+        height: 150px;
+        width: 300px;
+    }
+    .evtxt{
+        font-size: 18px;
+    }
+    .evtxt2{
+        font-size: 18px;
+    }
+    .evtxt3{
+        font-size: 18px;
+    }
+    .onefont{
+        margin-top: 10px;
+        font-size: 80px;
+        margin-left: 130px;
+    }
+    .vr1{
+        height: 250px;
+        width: 30px;
+        border-left: 2px solid black;
+        margin-left: 200px;
+        margin-top: -220px;
+    }
+    .onefonttxt{
+        font-size: 20px;
+        height: 34px;
+        width: 80px;
+        padding-top: 2px;
+    }
+    .twofont{
+        margin-top: 10px;
+        font-size: 80px;
+        margin-left: 120px;
+    }
+    .twofonttxt{
+        font-size: 20px;
+        color: black;
+        height: 34px;
+        width: 90px;
+        padding-top: 3px;
+    }
+    .vr2{
+        height: 250px;
+        width: 30px;
+        margin-left: 220px;
+        margin-top: -220px;
+    }
+    .threefont{
+        margin-top: 10px;
+        font-size: 80px;
+        margin-left: 100px;
+    }
+    .threefonttxt{
+        font-size: 20px;
+        color: black;
+        height: 56px;
+        width: 100px;
+        padding-top: 3px;
+        margin-left: -15px;
+    }
+    .card img{
+        height: 30px;
+    }
+    .footer{
+        height: 250px;
+    }
+    .ustxt{
+        font-size: 25px;
+    }
+    .foottxt{
+        font-size: 15px;
+    }
+    .copy{
+        height: 45px;
+        font-size: 18px;
+        align-items: center;
+    }
+    .ind{
+        text-indent: 750px;
+    }
+ }
+
+ /* media quary 768px */
+
+ @media only screen and (max-width:768px){
+    .navbar{
+        width:100%;
+    }
+    .logo{
+       font-size: 17px;
+    }
+    .ull{
+        padding-left: 430px;
+    }
+    .subnav{
+        height: 35px;
+        width: 100%;
+    }
+    .subnav1{
+        font-size: 15px;
+        gap: 10px;
+    }
+    .hero{
+        height: 350px;
+    }
+    .sample{
+        justify-content: space-around;
+    }
+    .samtxt{
+        justify-content: space-around;
+        font-size: 20px;
+        margin: 10px;
+    }
+    .comsam img{
+        height: 250px;
+        width: 150px;
+    }
+    .shirtshop{
+       height: 30px;
+       width: 160px;
+       font-size: 22px;
+       margin-bottom: 240px;
+    }
+    .pants{
+        margin-top: -210px;
+    }
+    .pantshop{
+       height: 33px;
+       width: 100px;
+       font-size: 23px;
+       margin-bottom: 260px;
+    }
+    .brazer{
+       margin-top: -230px;
+    }
+    .brazershop{
+        height: 33px;
+        width: 100px;
+        font-size: 23px;
+        margin-bottom: 260px;
+    }
+    .polo{
+       margin-top: -230px;
+   }
+   .poloshop{
+        height: 33px;
+        width: 100px;
+        font-size: 23px;
+       margin-bottom: 160px;
+   }
+   .news{
+       margin-top: -110px;
+   }
+   .event1{
+       height: 130px;
+       width: 220px;
+   }
+   .event2{
+    height: 130px;
+    width: 220px;
+   }
+   .event3{
+    height: 130px;
+    width: 220px;
+   }
+   .eventtx1{
+       height: 100px;
+        width: 220px;
+   }
+   .eventtx2{
+        height: 100px;
+        width: 220px;
+   }  
+   .eventtx3{
+        height: 100px;
+        width: 220px;
+   }
+   .evtxt{
+       font-size: 15px;
+       padding: 15px;
+
+   }
+   .evtxt2{
+       font-size: 16px;
+       padding: 15px;
+   }
+   .evtxt3{
+       font-size: 16px;
+       padding: 15px;
+   }
+   .evdate1{
+    font-size: 18px;
+}
+.evdate2{
+    font-size: 18px;
+}
+.evdate3{
+    font-size: 18px;
+}
+
+   .onefont{
+       margin-top: 10px;
+       font-size: 50px;
+       margin-left: 90px;
+   }
+   .vr1{
+       height: 200px;
+       margin-left: 170px;
+       margin-top: -170px;
+   }
+   .onefonttxt{
+       font-size: 17px;
+       height: 28px;
+       width: 70px;
+       padding-top: 2px;
+       margin-left: -8px;
+   }
+   .twofont{
+    font-size: 50px;
+       margin-left: 80px;
+   }
+   .twofonttxt{
+       font-size: 20px;
+       color: black;
+       height: 34px;
+       width: 90px;
+       padding-top: 3px;
+       margin-left: -20px;
+   }
+   .vr2{
+    height: 200px;
+       width: 30px;
+       margin-left: 180px;
+       margin-top: -170px;
+   }
+   .threefont{
+       margin-top: 10px;
+       font-size: 50px;
+       margin-left: 70px;
+   }
+   .threefonttxt{
+       font-size: 20px;
+       color: black;
+       height: 56px;
+       width: 100px;
+       padding-top: 3px;
+       margin-left: -20px;
+   }
+   .card img{
+       height: 25px;
+   }
+   .footer{
+       height: 225px;
+   }
+   .ustxt{
+       font-size: 22px;
+   }
+   .foottxt{
+       font-size: 12px;
+   }
+   .copy{
+       height: 30px;
+       font-size: 15px;
+   }
+   .ind img{
+    height: 20px;
+   }
+   .ind {
+     
+       text-indent: 700px;  
+   }
+}

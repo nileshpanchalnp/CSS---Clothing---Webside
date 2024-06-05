@@ -1,0 +1,533 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.txtcomman{
+    font-family: 'Bebas Neue';
+}
+.logo{
+    color: #fceeab;
+    font-size: 25px;
+}
+.navbar{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    position: fixed;
+}
+.ull{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 1140px;
+    gap: 30px;
+ }
+ .subnav{
+     height: 45px;
+     width: 100%;
+     background-color: black;
+     padding-top: 50px;
+     color: white;
+ }
+ .subnav1{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif; 
+ }
+ .home{
+     text-decoration: none;
+     color: white;
+ }
+ .home:hover{
+     background-color: rgb(74, 74, 82);
+     color: #ead779;
+ }
+ /* topwear */
+ .subheader{
+     text-decoration: none;
+     color: #fceeab;
+ }
+ .subheader:hover{
+     color: aquamarine;
+ }
+ .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+.dropdown-contant{
+    display: none;
+    background-color: black;
+    position: absolute;
+    padding: 15px 15px;
+    z-index: 1;
+}
+.dropdown:hover .dropdown-contant{
+    display: block;
+  }
+  /* bottom wear */
+  .subheader1{
+    text-decoration: none;
+    color: #fceeab;
+}
+.subheader1:hover{
+    color: aquamarine;
+}
+  .dropdown1 {
+    position: relative;
+    display: inline-block;
+  }
+.dropdown-contant1{
+    display: none;
+    background-color: black;
+    position: absolute;
+    padding: 15px 15px;
+    z-index: 1;
+}
+.dropdown1:hover .dropdown-contant1{
+    display: block;
+  }
+.hero{
+    height: 600px;
+    width: 100%;
+    background-image: url('./img/0905_PLEATS_ROTATE_DESK_UK_HERO');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.herobox{
+    font-size: 40px;
+    height: 49px;
+    width: 155px;
+    background-color: white;
+    box-sizing: border-box;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.herobox:hover{
+    color: white;
+    background-color: black;
+    transition: all 0.5s linear;
+}
+.comsam:hover{
+    animation: pulse 2s infinite;
+}
+.novel{
+    padding-left: 20px;
+    padding-bottom: 50px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.sample{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    margin-left: 100px;
+}
+.samtxt{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    font-size: 25px;
+    font-weight: 600;
+    gap: 60px;
+    margin: 30px;
+}
+/* .sectionshirts */
+.shirts{
+    background-image: url('./img/SHIRTS_section1');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 70px;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.shirtshop{
+    height: 50px;
+    width: 220px;
+    background-color: rgb(126, 129, 154);
+    text-decoration: none;
+    margin-bottom: 60px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    color: white;
+    border-radius: 30px;
+}
+.shirtshop:hover{
+    background-color: rgb(234, 172, 235);
+    color: black;
+    transition: all 0.5s linear;
+}
+/* section=2 man */
+.pants{
+    background-image: url('./img/pants-section2');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.pantshop{
+    height: 50px;
+    width: 150px;
+    background-color: rgb(207, 0, 204);
+    text-decoration: none;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    color: rgb(237, 229, 229);
+    margin-bottom: 60px;
+}
+.pantshop:hover{
+    background-color: rgb(134, 122, 135);
+    color: rgb(29, 26, 26);
+    transition: all 0.5s linear;
+}
+/* section 3 hand */
+.brazer{
+    background-image: url('./img/Blazers-section3');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.brazershop{
+    height: 50px;
+    width: 150px;
+    background-color: rgb(100, 87, 99);
+    text-decoration: none;
+    margin-bottom: 60px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    color: rgb(237, 229, 229);
+    margin-top: 30px;
+}
+.brazershop:hover{
+    background-color: rgb(172, 198, 106);
+    color: rgb(29, 26, 26);
+    transition: all 0.5s linear;
+}
+/* section 5 rossa */
+.jackets{
+    background-image: url('./img/Jackets-section4');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.jacketshop{
+    height: 50px;
+    width: 150px;
+    background-color: rgb(6, 73, 74);
+    text-decoration: none;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    color: rgb(237, 229, 229);
+    margin-bottom: -60px;
+    /* margin-left: 80px; */
+}
+.jacketshop:hover{
+    background-color: rgb(22, 193, 227);
+    color: rgb(29, 26, 26);
+    transition: all 0.5s linear;
+}
+/* section 6 amba */
+
+.polo{
+    background-image: url('./img/POLO-TEES');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 40px;
+}
+.poloshop{
+    height: 50px;
+    width: 150px;
+    background-color: rgb(60, 56, 60);
+    text-decoration: none;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    color: rgb(237, 229, 229);
+    margin-bottom: -60px;
+    margin-left: 50px;
+}
+.poloshop:hover{
+    background-color: rgb(172, 198, 106);
+    color: rgb(29, 26, 26);
+    transition: all 0.5s linear;
+}
+/* news and event */
+.news{
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    margin: 60px;
+    margin-top: 110px;
+}
+/* events */
+.mainevent{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+.event1{
+    height: 300px;
+    width: 460px;
+    background-image: url('./img/fashion-collection-design-shopping-1');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.event1:hover{
+    background-color: rgb(195, 187, 187);
+    background-blend-mode: hard-light;
+}
+.event2{
+    height: 300px;
+    width: 460px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('./img/vertical-poster-template-sale-with-man-shopping-2');
+}
+.event2:hover{
+    background-color: rgb(10, 9, 9);
+    background-blend-mode: hard-light;
+}
+.event3{
+    height: 300px;
+    width: 460px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('./img/single-s-day-banner-design_shopping-3');
+}
+.event3:hover{
+    background-color: rgb(225, 209, 209);
+    background-blend-mode: hard-light;
+}
+/* event text */
+.maineventtx{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: -17px;
+}
+.eventtx1{
+    height: 150px;
+    width: 460px;
+    background-color: rgb(217, 211, 211);
+}
+.eventtx2{
+    height: 150px;
+    width: 460px;
+    background-size: contain;
+    background-color: rgb(217, 211, 211);
+}
+.eventtx3{
+    height: 150px;
+    width: 460px;
+    background-size: contain;
+    background-color: rgb(217, 211, 211);
+}
+/* evtxt */
+.evtxt{
+    font-size: 25px;
+    color: black;
+    padding: 30px;
+}
+.evdate1{
+    font-size: 20px;
+    color: black;
+    padding-left: 40px;
+}
+.evtxt2{
+    font-size: 25px;
+    color: black;
+    padding: 45px;
+}
+.evdate2{
+    font-size: 20px;
+    color: black;
+    padding-left: 40px;
+}
+.evtxt3{
+    font-size: 25px;
+    color: black;
+    padding: 45px;
+}
+.evdate3{
+    font-size: 20px;
+    color: black;
+    padding-left: 40px;
+}
+
+/* contack */
+.contacttxt{
+    font-size: 25px;
+    color: black;
+    text-align: center;
+    padding-top: 5px;
+}
+.contact{
+    height: 45px;
+    width: 200px;
+    border: 2px solid black;
+    margin: auto;
+    box-sizing: border-box;
+}
+.contact:hover{
+    color: black;
+    border: 3px solid  rgba(59, 182, 216, 0.993);
+}
+/* font-family: 'Jomhuria', cursive; */
+/* font */
+.mainfont{
+    display: flex;
+    flex-flow: row nowrap;
+}
+.onefont{
+    margin-top: 10px;
+    font-size: 100px;
+    margin-left: 180px;
+}
+.onefonttxt{
+    font-size: 25px;
+    color: black;
+    height: 45px;
+    width: 100px;
+    border: 2px solid black;
+    text-align: center;
+    padding-top: 5px;
+    margin-top: 20px;
+    box-sizing: border-box;
+}
+.onefonttxt:hover{
+    color: rgb(53, 117, 134);
+    border: 3px solid  rgba(105, 36, 135, 0.993);
+}
+.vr1{
+    height: 280px;
+    width: 30px;
+    border-left: 2px solid black;
+    margin-left: 300px;
+    margin-top: -250px;
+}
+.twofont{
+    margin-top: 10px;
+    font-size: 100px;
+    margin-left: 160px;
+}
+.twofonttxt{
+    font-size: 25px;
+    color: black;
+    height: 45px;
+    width: 120px;
+    border: 2px solid black;
+    text-align: center;
+    padding-top: 5px;
+    margin-top: 20px;
+    box-sizing: border-box;
+}
+.twofonttxt:hover{
+    color: rgb(66, 160, 51);
+    border: 3px solid  rgba(20, 46, 97, 0.993);
+}
+.vr2{
+    height: 280px;
+    width: 30px;
+    border-left: 2px solid black;
+    margin-left: 300px;
+    margin-top: -250px;
+}
+.threefont{
+    margin-top: 10px;
+    font-size: 100px;
+    margin-left: 180px;
+}
+.threefonttxt{
+    font-size: 25px;
+    color: black;
+    height: 70px;
+    width: 150px;
+    border: 2px solid black;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: -25px;
+    box-sizing: border-box;
+}
+.threefonttxt:hover{
+    color: rgb(13, 105, 117);
+    border: 3px solid  rgba(55, 94, 31, 0.993);
+}
+/* footer */
+/* card */
+.card{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    text-align: center;
+}
+/* footer */
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #ead779;
+    height: 350px;
+    width: 100%;
+}
+.us{
+    margin-top: 40px;
+}
+.ustxt{
+    font-size: 31px;
+}
+.foottxt{
+    font-family: 'Poppins', sans-serif; 
+    font-size: 20px;
+}
+.foottxt:hover{
+    color: gray;
+}
+.copy{
+    display: flex;
+    flex-flow: row wrap;
+    height: 50px;
+    width: 100%;
+    background-color: #ead779;
+    font-size: 21px;
+    text-indent: 15px;
+    align-items: center;
+}
+.ind {
+    text-indent: 1050px;
+}

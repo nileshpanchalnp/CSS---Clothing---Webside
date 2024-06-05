@@ -1,0 +1,218 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.txtcomman{
+    font-family: 'Bebas Neue';
+}
+.logo{
+    color: #fceeab;
+    font-size: 25px;
+}
+.navbar{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    position: fixed;
+}
+.ull{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 1170px;
+    gap: 30px;
+ }
+ .subnav{
+     height: 45px;
+     width: 100%;
+     background-color: black;
+     padding-top: 50px;
+     color: white;
+ }
+ .subnav1{
+     list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif; 
+ }
+ .home{
+    text-decoration: none;
+    color: white;
+}
+.home:hover{
+    background-color: rgb(74, 74, 82);
+    color: #fceeab;
+}
+ /* topwear */
+ .subheader{
+     text-decoration: none;
+     color: #fceeab;
+ }
+ .subheader:hover{
+   color: aquamarine;
+}
+ .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+.dropdown-contant{
+    display: none;
+    background-color: black;
+    position: absolute;
+    padding: 15px 15px;
+    z-index: 1;
+}
+.dropdown:hover .dropdown-contant{
+    display: block;
+  }
+  /* bottom wear */
+  .subheader1{
+    text-decoration: none;
+    color: #fceeab;
+}
+.subheader1:hover{
+   color: aquamarine;
+}
+  .dropdown1 {
+    position: relative;
+    display: inline-block;
+  }
+.dropdown-contant1{
+    display: none;
+    background-color: black;
+    position: absolute;
+    padding: 15px 15px;
+    z-index: 1;
+}
+.dropdown1:hover .dropdown-contant1{
+    display: block;
+  }
+.hero{
+    height: 400px;
+    width: 100%;
+    background-image: url('./img/POLO-TEES');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 40px;
+}
+  /* img section 1 */
+  .img{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+.comimg{
+   height: 400px;
+   width: 350px;
+}
+.comimg:hover{
+   animation: pulse 2s infinite;
+}
+.photo1{
+    background-image: url('./img/classic-pique-polo-1');
+}
+.photo2{
+   background-image: url('./img/printed-detailed-polo-2');
+}
+.photo3{
+   background-image: url('./img/mandarin-collar-white-polo-3');
+}
+.imgtxt{
+   display: flex;
+   flex-flow: row wrap;
+   justify-content: space-around;
+   margin-left: 40px;
+}
+.phototxt{
+   margin: 20px;
+   font-size: 20px;
+   font-weight: bold;
+}
+.rupee{
+   display: flex;
+   flex-flow: row wrap;
+   justify-content: space-around;
+   margin-bottom: 30px;
+}
+.rscom{
+   font-size: 30px;
+   font-weight: bold;
+}
+/* section2 */
+.photo4{
+   background-image: url('./img/striped-pique-polo-4');
+}
+.photo5{
+   background-image: url('./img/indigo-printed-polo-5');
+}
+.photo6{
+   background-image: url('./img/pique-navy-polo-6');
+}
+
+/* next previuos */
+
+.next{
+   margin: 30px;
+   display: flex;
+   flex-flow: row wrap;
+   justify-content: center;
+   font-size: 40px;
+   text-align: center;
+   gap: 30px;
+}
+.nextbox{
+   height: 50px;
+   width: 50px;
+   border: 2px solid black;
+}
+.nextbox:hover{
+   color: white;
+   background-color: rgb(115, 111, 111);
+}
+/* footer */
+/* card */
+.card{
+   display: flex;
+   justify-content: center;
+   gap: 40px;
+   text-align: center;
+}
+/* footer */
+.footer{
+   display: flex;
+   justify-content: space-around;
+   background-color: #ead779;
+   height: 350px;
+   width: 100%;
+}
+.us{
+   margin-top: 40px;
+}
+.ustxt{
+   font-size: 31px;
+}
+.foottxt{
+   font-family: 'Poppins', sans-serif; 
+   font-size: 20px;
+}
+.foottxt:hover{
+   color: gray;
+}
+.copy{
+   display: flex;
+   height: 50px;
+   width: 100%;
+   background-color: #ead779;
+   font-size: 21px;
+   text-indent: 15px;
+   align-items: center;
+}
+.ind{
+   text-indent: 1050px;
+   padding-top: 5px;
+}
